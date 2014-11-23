@@ -1,0 +1,10 @@
+{
+  "name": "jQueryPlugins",
+  "version": "0.0.0",
+  "description": "jQueryPlugins",
+  "main": "app.js",
+  "author": {
+    "name": "Secret",
+    "email": ""
+  }
+}
