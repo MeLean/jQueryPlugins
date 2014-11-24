@@ -1,0 +1,10 @@
+{
+  "name": "FadingMessageBox",
+  "version": "0.0.0",
+  "description": "FadingMessageBox",
+  "main": "app.js",
+  "author": {
+    "name": "Secret",
+    "email": ""
+  }
+}

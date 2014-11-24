@@ -3,16 +3,17 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>jQueryPlugins</Name>
-    <RootNamespace>jQueryPlugins</RootNamespace>
+    <Name>FadingMessageBox</Name>
+    <RootNamespace>FadingMessageBox</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>857c7640-95f7-41e6-8aae-b03e50142831</ProjectGuid>
+    <ProjectGuid>f9edae79-dffe-42a6-9b34-4b8ce9d6eccd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scripts\jquery-2.1.1.min.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -30,16 +31,16 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="css\_01_TreeViewStyle.css" />
+    <Content Include="css\FadeMsgBox.css" />
+    <Content Include="_02_FadeOutMessageBox.html" />
     <Content Include="package.json" />
-    <Content Include="_01_TreeViewPlugin.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="scripts\_01_TreeViewPlugin.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="scripts\_02_FadingMessageBox.js" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
 </Project>
